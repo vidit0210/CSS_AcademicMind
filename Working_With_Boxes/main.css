@@ -1,18 +1,24 @@
 body {
   font-family: "Times New Roman", Times, serif;
 }
+
 #product-overview {
   background: #ff1b68;
+  padding: 20px;
+  border: 5px solid black;
+  margin: 20px;
 }
 
 h1 {
   color: white;
   font-family: "Roboto Mono", monospace;
 }
+
 .section-title {
   color: #2ddf5c;
   font-family: inherit;
 }
+
 /* Classes have higher property over normal attributes 
     Multiple Rules can be applied to the selector
     Order of Specificity
