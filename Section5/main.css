@@ -68,8 +68,19 @@ body {
   color: white;
   background: #0e4f1f;
   font: inherit;
+  border: 1.5px solid #0e4f1f;
+  padding: 5px;
+  border-radius: 20px;
+  cursor: pointer;
 }
-
+.button:hover,
+.button:active {
+  background: white;
+  color: #0e4f1f;
+}
+.button:focus {
+  outline: none;
+}
 #product-overview h1 {
   color: white;
   font-family: "Anton", sans-serif;
