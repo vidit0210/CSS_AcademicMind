@@ -60,7 +60,9 @@ body {
 .plan__ulist {
   list-style: none;
 }
-
+.customer-list {
+  list-style: none;
+}
 .plan__ulist li {
   margin: 5px;
 }
@@ -80,6 +82,14 @@ body {
 }
 .button:focus {
   outline: none;
+}
+
+#key-features {
+  background: #ff1b68;
+}
+
+#key-features .section-title {
+  color: white;
 }
 #product-overview h1 {
   color: white;
