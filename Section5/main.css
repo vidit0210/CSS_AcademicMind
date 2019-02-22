@@ -60,9 +60,7 @@ body {
 .plan__ulist {
   list-style: none;
 }
-.customer-list {
-  list-style: none;
-}
+
 .plan__ulist li {
   margin: 5px;
 }
@@ -90,6 +88,30 @@ body {
 
 #key-features .section-title {
   color: white;
+}
+.customer-list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+.feature_element {
+  display: inline-block;
+  width: 30%;
+}
+.feature-para {
+  font-weight: bold;
+  font-size: 20px;
+  vertical-align: top;
+  color: white;
+}
+.key_feature__element {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  border: 1px solid #424242;
+  margin: auto;
+  background: white;
 }
 #product-overview h1 {
   color: white;
@@ -161,4 +183,25 @@ body {
   color: #ff1b68;
   background: white;
   border: none;
+}
+.main-footer {
+  background: black;
+  padding: 32px;
+  margin-top: 48px;
+}
+.main-footer-ulist {
+  list-style: none;
+  text-align: center;
+}
+.main-footer-list {
+  display: inline-block;
+  margin: 0 16px;
+}
+.main-footer-list a {
+  color: white;
+  text-decoration: none;
+}
+.main-footer-list a:hover,
+.main-footer-list a:active {
+  color: #ccc;
 }
