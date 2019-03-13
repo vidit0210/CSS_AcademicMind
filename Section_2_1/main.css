@@ -29,6 +29,23 @@ body {
     padding: 8px 16px;
     margin-bottom: 0;
 }
+.main-header > div {
+    display: inline-block;
+}
 .main_nav_item{
     display: inline-block;
+}
+.main_nav_items{
+    display: inline-block;
+    list-style: none;
+    margin:0;
+    padding:0;
+
+}
+.main-nav{
+    display: inline-block;
+    text-align: right;
+    /* width: 100%; */
+    width: calc(100% - 56px)
+ 
 }
